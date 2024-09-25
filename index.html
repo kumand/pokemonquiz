@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポケモンクイズ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>ポケモンクイズ</h1>
+        <div id="score">スコア: <span id="score-value">0</span></div>
+        <div id="difficulty">
+            <label for="generation">世代選択:</label>
+            <select id="generation">
+                <option value="1">第1世代</option>
+                <option value="2">第2世代</option>
+                <option value="3">第3世代</option>
+                <option value="4">第4世代</option>
+                <option value="5">第5世代</option>
+            </select>
+        </div>
+        <div id="pokemon-image"></div>
+        <div id="options"></div>
+        <button id="next-button">次の問題</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
